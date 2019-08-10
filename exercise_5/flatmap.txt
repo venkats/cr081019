@@ -1,0 +1,32 @@
+import java.util.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.*;
+
+public class Sample {  
+  public static void main(String[] args) {
+    List<Integer> numbers = List.of(1, 2, 3);
+    
+    //if you have a one-to-one function R f1(T)
+    //Stream<T>.map(f1) ===> Stream<R>    
+    
+    System.out.println(numbers.stream()
+      .map(e -> e * 2)
+      .collect(toList()));
+      
+    //if you have a one-to-many function List<R> f2(T)
+    //Stream<T>.map(f2) ===> Stream<List<R>>
+    
+    System.out.println(numbers.stream()
+      .map(e -> List.of(e - 1, e + 1))
+      .collect(toList()));
+    //if you want a collection of collection, you got it.
+    
+    //but what if you want a collection and not a collection
+    //of collection when using a one-to-many function?
+    
+    //that is where flatMap
+    System.out.println(numbers.stream()
+      .flatMap(e -> Stream.of(e - 1, e + 1))
+      .collect(toList()));
+  }
+}
