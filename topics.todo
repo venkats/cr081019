@@ -4,10 +4,16 @@ venkats@agiledeveloper.com
 @venkat_s
 ==============================================================================
 
-Access:
-URL: https://github.com/venkats/cr081019
+Functional Style:
+-imperative
+-declarative
+-functional
+-higher-order functions
+-lambdas
+-how to approach thinking in functional style
 
 Where to find the exercise: 
+URL: https://github.com/venkats/cr081019
 
 Exercise 1: Declarative and Functional:
 Look into IntStream
