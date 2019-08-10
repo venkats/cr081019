@@ -5,12 +5,12 @@ venkats@agiledeveloper.com
 ==============================================================================
 
 Functional Style:
--imperative
--declarative
--functional
--higher-order functions
--lambdas
--how to approach thinking in functional style
+✓imperative
+✓declarative
+✓functional
+✓higher-order functions
+✓lambdas
+✓how to approach thinking in functional style
 
 Where to find the exercise: 
 URL: https://github.com/venkats/cr081019
@@ -19,7 +19,7 @@ Exercise 1: Declarative and Functional:
 Look into IntStream
 
 Exercise 2: Using Stream:
-Look info Files, Paths
+Look into Files, Paths
 
 Exercise 3: Grouping:
 Collectors and groupingBy
