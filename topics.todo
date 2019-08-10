@@ -1,0 +1,26 @@
+Thinking in Functional Style
+Venkat Subramaniam
+venkats@agiledeveloper.com
+@venkat_s
+==============================================================================
+
+Where to find the exercise: 
+
+Exercise 1: Declarative and Functional:
+Look into IntStream
+
+Exercise 2: Using Stream:
+Look info Files, Paths
+
+Exercise 3: Grouping:
+Collectors and groupingBy
+
+Exercise 4: Decorator:
+Predicate, default methods of Predicate
+Convert each class into a static method of a Evaluators class
+
+Exercise 5: Transformation:
+IntStream, Stream, flatMap
+
+Exercise 6: Infinite Streams:
+Stream, iterate, limit
